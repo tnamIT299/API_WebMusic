@@ -1,0 +1,136 @@
+.song-details {
+    position: absolute;
+    left: 20px;
+    line-height: 22px;
+  }
+  
+  .song-details .song-name {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .song-details .artist-name {
+    font-family: 'Proxima Thin', Georgia, sans-serif;
+    color: #aaa;
+    font-size: 12px;
+  }
+  
+  .song-controls {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .forward,
+  .reverse,
+  .play-btn {
+    padding: 0 5px;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+  }
+  
+  .reverse,
+  .forward {
+    font-size: 16px;
+  }
+  .song-player-container{
+    background-color:slategrey;
+  }
+  .song-player-container .play-btn {
+    position: relative;
+    top: -7px;
+    font-size: 40px;
+  }
+  
+  .song-player-container .pause-btn {
+    position: relative;
+    top: -7px;
+    font-size: 40px;
+    margin: 0 5px;
+  }
+  
+  .play-btn .fa {
+    -webkit-text-stroke: 4px rgb(40, 40, 40);
+  }
+  
+  .song-progress-container {
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .song-progress {
+    width: 500px;
+    height: 4px;
+    background:transparent;
+    border-radius: 4px;
+  }
+  
+  .song-expired {
+    margin: 0;
+    width: 100px;
+    height: 4px;
+    background: #1db954;
+    border-radius: 4px;
+  }
+  
+  .timer-start {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+  }
+  
+  .timer-end {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+  }
+
+  .volume-container {
+    position: absolute;
+    top: 48px;
+    right: 10px;
+  }
+  
+  .volume {
+    -webkit-appearance: none;
+    width: 120px;
+    height: 5px;
+    background: #4CAF50;
+    border-radius: 4px;
+    outline: none;
+    opacity: 1;
+  }
+  
+  input[type=range]::-moz-range-track {
+    width: 120px;
+    height: 5px;
+    background: #4CAF50;
+    border-radius: 4px;
+    outline: none;
+    opacity: 1;
+  }
+  
+  .volume-container  .fa-volume-up {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+  }
+  
+  .volume:hover {
+      opacity: 0.8;
+      background: #4CAF50;
+  }
+  
+  .volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+  }
